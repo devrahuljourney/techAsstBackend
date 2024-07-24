@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(express.json());
 
 app.use(cors({
-    origin: "http://localhost:3000", 
+    origin: "https://tech-asst-frontend.vercel.app", 
     optionsSuccessStatus: 200,
     credentials: true
 }));
